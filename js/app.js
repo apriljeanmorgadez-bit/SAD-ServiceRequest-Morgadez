@@ -99,10 +99,6 @@ function displayRequests(data) {
 }
 
 
-// ==============================
-// CREATE / UPDATE
-// ==============================
-
 document
     .getElementById("requestForm")
     .addEventListener("submit", async function(event) {
@@ -248,10 +244,7 @@ document
 
     });
 
-
-// ==============================
 // EDIT
-// ==============================
 
 function editRequest(id) {
 
@@ -294,9 +287,9 @@ function editRequest(id) {
 }
 
 
-// ==============================
+
 // DELETE
-// ==============================
+
 
 async function deleteRequest(id) {
 
@@ -334,9 +327,8 @@ async function deleteRequest(id) {
 }
 
 
-// ==============================
 // DASHBOARD
-// ==============================
+
 
 function updateDashboard(data) {
 
@@ -373,9 +365,8 @@ function updateDashboard(data) {
 }
 
 
-// ==============================
 // SEARCH + FILTER
-// ==============================
+
 
 function applyFilters() {
 
@@ -459,9 +450,7 @@ document
     );
 
 
-// ==============================
 // LOGOUT
-// ==============================
 
 document
     .getElementById("logoutBtn")
@@ -478,9 +467,8 @@ document
     );
 
 
-// ==============================
 // CANCEL EDIT
-// ==============================
+
 
 document
     .getElementById("cancelEdit")
@@ -512,9 +500,8 @@ function resetForm() {
 }
 
 
-// ==============================
 // MESSAGE
-// ==============================
+
 
 function showMessage(message) {
 
@@ -531,10 +518,7 @@ function showMessage(message) {
 
 }
 
-
-// ==============================
 // BASIC HTML ESCAPE
-// ==============================
 
 function escapeHTML(value) {
 
