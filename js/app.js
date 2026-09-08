@@ -2,10 +2,6 @@ let currentUser = null;
 let requests = [];
 
 
-// ==============================
-// CHECK LOGIN
-// ==============================
-
 async function checkUser() {
 
     const { data, error } =
@@ -22,11 +18,6 @@ async function checkUser() {
 
     loadRequests();
 }
-
-
-// ==============================
-// LOAD REQUESTS
-// ==============================
 
 async function loadRequests() {
 
@@ -54,10 +45,6 @@ async function loadRequests() {
     updateDashboard(requests);
 }
 
-
-// ==============================
-// DISPLAY REQUESTS
-// ==============================
 
 function displayRequests(data) {
 
