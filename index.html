@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ICT Service Request System</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+
+        <h1>ICT SERVICE REQUEST SYSTEM</h1>
+
+        <button id="logoutBtn">Logout</button>
+
+    </header>
+
+    <!-- DASHBOARD -->
+
+    <section class="dashboard">
+
+        <div class="card">
+            <h3>Total Requests</h3>
+            <p id="totalRequests">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Pending</h3>
+            <p id="pendingRequests">0</p>
+        </div>
+
+        <div class="card">
+            <h3>In Progress</h3>
+            <p id="progressRequests">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Completed</h3>
+            <p id="completedRequests">0</p>
+        </div>
+
+    </section>
+
+
+    <!-- NEW REQUEST -->
+
+    <section class="form-section">
+
+        <h2 id="formTitle">New Service Request</h2>
+
+        <form id="requestForm">
+
+            <input type="hidden" id="requestId">
+
+            <label>Requester Name</label>
+            <input
+                type="text"
+                id="requester"
+                required
+            >
+
+            <label>Department</label>
+            <input
+                type="text"
+                id="department"
+                required
+            >
+
+            <label>Category</label>
+
+            <select id="category" required>
+
+                <option value="">Select Category</option>
+                <option value="Computer Repair">Computer Repair</option>
+                <option value="Software Installation">
+                    Software Installation
+                </option>
+                <option value="Network Problem">
+                    Network Problem
+                </option>
+                <option value="Printer Problem">
+                    Printer Problem
+                </option>
+                <option value="Account/Access Concern">
+                    Account/Access Concern
+                </option>
+                <option value="Other">
+                    Other
+                </option>
+
+            </select>
+
+            <label>Description</label>
+
+            <textarea
+                id="description"
+                required
+            ></textarea>
+
+            <label>Priority</label>
+
+            <select id="priority" required>
+
+                <option value="">Select Priority</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+
+            </select>
+
+            <label>Status</label>
+
+            <select id="status">
+
+                <option value="Pending">Pending</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Completed">Completed</option>
+
+            </select>
+
+            <button type="submit">
+                Save Request
+            </button>
+
+            <button
+                type="button"
+                id="cancelEdit"
+                class="secondary"
+            >
+                Cancel
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </section>
+
+
+    <!-- SEARCH / FILTER -->
+
+    <section>
+
+        <h2>Service Requests</h2>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search requester or description..."
+        >
+
+        <select id="statusFilter">
+
+            <option value="All">All Status</option>
+            <option value="Pending">Pending</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Completed">Completed</option>
+
+        </select>
+
+        <select id="priorityFilter">
+
+            <option value="All">All Priority</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+
+        </select>
+
+    </section>
+
+
+    <!-- TABLE -->
+
+    <section>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>ID</th>
+                    <th>Requester</th>
+                    <th>Department</th>
+                    <th>Category</th>
+                    <th>Priority</th>
+                    <th>Status</th>
+                    <th>Date</th>
+                    <th>Action</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="requestTable">
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+</div>
+
+<script src="js/supabase.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
