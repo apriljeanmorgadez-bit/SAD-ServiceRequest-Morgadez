@@ -20,24 +20,13 @@ System User / ICT Personnel
 
 4. Use Case Diagram
 
-
-
 <img width="551" height="761" alt="Use Case" src="https://github.com/user-attachments/assets/358ce4d9-b06f-465c-85e4-3b47eddd5b65" />
-
-
-
-
-
-
-
-   
-(U can see it in documentation folder)
-
 
 4. Simple ERD
 
 
-(U can see it in documentation folder)
+<img width="1285" height="717" alt="Simple ERD" src="https://github.com/user-attachments/assets/5c17b985-2929-46f9-b539-d954d7c3f2b1" />
+
 
 
 
