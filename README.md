@@ -20,27 +20,13 @@ System User / ICT Personnel
 
 4. Use Case Diagram
    
-
-                      Login
-                      View Dashboard
-                      Create Request
-                      View Requests
-      User            Search Request
-                      Filter Requests
-                      Update Request
-                      Delete Request
-                      Logout
+(U can see it in documentation folder)
 
 
 4. Simple ERD
 
 
-
-
-
-
-
-
+(U can see it in documentation folder)
 
 
 
