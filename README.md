@@ -18,11 +18,15 @@ The university's ICT office currently receives technical support requests throug
 System User / ICT Personnel
 
 
-4. Use Case Diagram
+3. Use Case Diagram
+   
 
 <img width="551" height="761" alt="Use Case" src="https://github.com/user-attachments/assets/358ce4d9-b06f-465c-85e4-3b47eddd5b65" />
 
+
+
 4. Simple ERD
+5. 
 
 
 <img width="1285" height="717" alt="Simple ERD" src="https://github.com/user-attachments/assets/5c17b985-2929-46f9-b539-d954d7c3f2b1" />
@@ -32,7 +36,7 @@ System User / ICT Personnel
 
 
 
-6. Requirements Traceability Matrix
+5. Requirements Traceability Matrix
 
 
 Requirements Traceability Matrix.
@@ -49,7 +53,8 @@ FR-08 	            System displays summaries      	 Dashboard 	                 
 
 
    
-8. Functional Testing
+6. Functional Testing
+
 
 Test ID                            Test Scenario 	                              Expected Result                                    Result
 
