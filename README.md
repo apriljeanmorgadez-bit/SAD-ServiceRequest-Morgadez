@@ -5,7 +5,7 @@ Laboratory Exercise 3 – Systems Analysis and Design (SAD)
 Student: April Jean Morgadez
 Section: BSIT- 3A 
 GitHub Repository: https://github.com/[your-username]/SAD-ServiceRequest-[Lastname]
-Live System: https://[your-username].github.io/SAD-ServiceRequest-[Lastname]/
+Live System: https://apriljeanmorgadez-bit.github.io/SAD-ServiceRequest-Morgadez/
 
 
 
