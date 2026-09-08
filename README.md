@@ -19,6 +19,17 @@ System User / ICT Personnel
 
 
 4. Use Case Diagram
+
+
+
+<img width="551" height="761" alt="Use Case" src="https://github.com/user-attachments/assets/358ce4d9-b06f-465c-85e4-3b47eddd5b65" />
+
+
+
+
+
+
+
    
 (U can see it in documentation folder)
 
