@@ -58,13 +58,13 @@ System User / ICT Personnel
 6. Functional Testing
 
 
-Test ID                            Test Scenario 	                              Expected Result                                    Result
-
-TC-01                          	Login using valid account 	                     Dashboard appears                                   PASS
-TC-02                         	Submit valid request                          	Request saved                                       PASS
-TC-03                         	Display requests                              	Existing records appear                             PASS
-TC-04                         	Modify request                                 	Changes saved                                       PASS
-TC-05                         	Delete request                                	Confirmation appears and record is removed          PASS
-TC-06 	                        Search requester                               	Matching records displayed                          PASS
-TC-07                         	Filter Pending requests                       	Only Pending records displayed                      PASS
-TC-08 	                        Open deployed URL                             	Application loads online                            PASS
+| Test ID | Test Scenario | Expected Result | Result |
+|---|---|---|---|
+| TC-01 | Login using valid account | Dashboard appears | PASS |
+| TC-02 | Submit valid request | Request saved | PASS |
+| TC-03 | Display requests | Existing records appear | PASS |
+| TC-04 | Modify request | Changes saved | PASS |
+| TC-05 | Delete request | Confirmation appears and record is removed | PASS |
+| TC-06 | Search requester | Matching records displayed | PASS |
+| TC-07 | Filter Pending requests | Only Pending records displayed | PASS |
+| TC-08 | Open deployed URL | Application loads online | PASS |
